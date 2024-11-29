@@ -1,0 +1,60 @@
+.grade-box {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grade-box.full {
+  background-color: #4caf50;
+  border-color: #45a049;
+}
+
+.grade-box.half {
+  background: linear-gradient(0deg, #4caf50 50%, transparent 50%);
+  border-color: #45a049;
+}
+
+.grade-box.na {
+  background-color: #f5f5f5;
+  cursor: not-allowed;
+  color: #999;
+  font-size: 12px;
+}
+
+.score-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+h2 {
+  color: #1976d2;
+  font-size: 1.5rem;
+  text-align:center;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #1976d2;
+}
+
+h3 {
+  color: #333;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.section-card {
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
